@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spaces</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+
+
+</head>
+
+
+<body>
+<!-- HEADER -->
+    <nav>
+        <div class="nav-bar wrapper">
+            <a href="#" class="logo">Spaces</a>
+            <label for="toggle"><i class="fa fa-bars"></i> Menu</label>
+            <input type="checkbox" id="toggle" name="toggle" />
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#spotlight">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="wrapper">
+        <div class="header-hero">
+            <h1>Spaces is an architecture studio based in Toronto, Canada</h1>
+            <img class="badge" src="./Option1-assets/badge.png" alt="Best Studio of the year Badge">
+            <img class="header-img" src="./Option1-assets/header.jpg" alt="Living room with modern furniture, fireplace, and patio walkout">
+        </div>
+    </header>
+
+<!-- ABOUT SECTION -->
+    <section class="about wrapper" id="about">
+        <div class="text-wrapper">
+            <h2>Our Practice</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, accusantium autem. Perferendis sunt labore, iste molestiae saepe corporis cum ipsam. Earum consequuntur voluptate accusantium autem. Perferendis sunt labore, iste molestiae saepe corporissuscipit distinctio, reprehenderit ipsa quod?</p>
+            <button><p>Send Message</p></button>
+        </div>
+        <div class="stacked-img">
+            <img class="top-img" src="./Option1-assets/image1.jpg" alt="Modern kitchen island with natural wood stools & white countertop">
+            <img src="./Option1-assets/image2.jpg" alt="Secondary view of modern kitchen showcasing black pendant lighting">
+        </div>
+    </section>
+
+<!-- GALLERY SECTION -->
+    <section class="spotlight wrapper"id="spotlight">
+        <div class="text-wrapper">
+            <h2>Spotlight</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia nulla error sequi labore enim iusto.</p>
+        </div>
+        <div class="gallery">
+            <div class="img-container landscape">
+                <h3 class="img-text">Elouise Avenue</h3>
+                <img src="./Option1-assets/image3.jpg" alt="White marble kitchen with black appliances">
+            </div>
+            <div class="img-container landscape">
+                <h3 class="img-text">Grant Residence</h3>
+                <img src="./Option1-assets/image4.jpg" alt="Modern architectural house made with wood, glass, and black metal">
+            </div>
+            <div class="img-container square">
+                <h3 class="img-text">Basil Lab</h3>
+                <img src="./Option1-assets/image5.jpg" alt="Natural wood dining table with 4 benches & multiple black pendant lamps">
+            </div>
+            <div class="img-container square">
+                <h3 class="img-text">Jo Residence</h3>
+                <img src="./Option1-assets/image6.jpg" alt="Stairs leading down to dining room on basement floor. Dining room has round wood table & exposed wood beams at the ceiling">
+            </div>
+            <div class="img-container square">
+                <h3 class="img-text">Rentea</h3>
+                <img src="./Option1-assets/image7.jpg" alt="Modern restaurant patio with cement walls and round wood tables">
+            </div>
+        </div>
+    </section>
+
+<!-- FORM SECTION -->
+    <section class="form" id="contact">
+        <div class="wrapper">
+            <div class="text-wrapper">
+                <h2>Tell us about your ideas</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dignissimos alias unde ad optio quis.</p>
+            </div>
+            <form action="#" method="POST" class="Form" name="Form">
+                <div class="name-email">
+                    <div class="form-item name">
+                        <label for="user-name">Name</label>
+                        <input type="text" id="user-name" name="user-name">
+                    </div>
+                    <div class="form-item">
+                        <label for="user-email">Email</label>
+                        <input type="email" id="user-email" name="user-email">
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label for="user-message">Message</label>
+                    <textarea id="user-message" name="user-message"></textarea>
+                </div>
+                <button type="submit"><p>Send Message</p></button>
+            </form>
+        </div>
+    </section>
+    
+<!-- TESTIMONIAL SECTION -->
+    <section class="testimonial wrapper">
+        <h2>Words from our clients</h2>
+        <div class="testimonial-card">
+            <p>Spaces were an incredible team of passionate creatives, who truly transformed our space into a beautiful sanctuary.</hp>
+            <div class="name-arrow">
+                <div class="name-card">
+                    <img src="./Option1-assets/image10.jpg" alt="Portrait of Jaime Jorge">
+                    <div class="name-text">   
+                        <h3>Jaime Jorge</h3>
+                        <h4>Founder, RENTEA</h4>
+                    </div>
+                </div>
+                <svg width="111" height="16" viewBox="0 0 111 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M110.707 8.70711C111.098 8.31658 111.098 7.68342 110.707 7.29289L104.343 0.928932C103.953 0.538408 103.319 0.538408 102.929 0.928932C102.538 1.31946 102.538 1.95262 102.929 2.34315L108.586 8L102.929 13.6569C102.538 14.0474 102.538 14.6805 102.929 15.0711C103.319 15.4616 103.953 15.4616 104.343 15.0711L110.707 8.70711ZM0 9H110V7H0V9Z" fill="#B18F39"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+<!-- FOOTER -->
+    <footer class="wrapper">
+        <img src="./Option1-assets/image9.jpg" alt="Office interior with baby blue & forest green chairs, an industrial lamp, and windows">
+        <div class="footer-text">
+            <address>
+                <a href="#"class="logo">Spaces</a><br>
+                <p>129 Jordan Ave,<br>
+                Toronto, CA M22 324</p><br>
+                <a class="address" href="tel:2322222522">(232) 222-2522</a><br>
+                <a class="address" href="mailto:info@spaces-studio.com">info@spaces-studio.com</a>
+            </address>
+            <div class="footer-menu">
+                <div class="footer-list">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">Who We Are</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h4>Projects</h4>
+                    <ul>
+                        <li><a href="#residential">Residential</a></li>
+                        <li><a href="#commercial">Commercial</a></li>
+                        <li><a href="#conceptual">Conceptual</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h4>Follow</h4>
+                    <ul>
+                        <li><a href="#" target="_blank">Instagram</a></li>
+                        <li><a href="#" target="_blank">Youtube</a></li>
+                        <li><a href="#" target="_blank">Houzz</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="juno">
+
+            
+            <p>Created at <a href="https://junocollege.com/" target="_blank">Juno College of Technology</a></p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
